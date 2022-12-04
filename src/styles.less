@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+@import "../src/assets/styles/theme.less";
+
+@font-face {
+    font-family: "Lato";
+    src: url("../src/assets/fonts/lato/Lato-Regular.eot");
+    src: url("../src/assets/fonts/lato/Lato-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../src/assets/fonts/lato/Lato-Regular.woff") format("woff"),
+        url("../src/assets/fonts/lato/Lato-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-size: @font-base-size;
+    font-family: @font-family;
+}
+
